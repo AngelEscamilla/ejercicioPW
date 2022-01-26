@@ -1,0 +1,40 @@
+p,h3{
+    color:purple;
+}
+
+h1.colorRojo{
+    color:green;
+    font-size: 1.5vw;
+}
+
+#azul{
+    color:blue;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+p::first-line{
+    color:cyan;
+    font-size: 1.5vw;
+}
+
+p::before{
+    color:black;
+    content: "ANTES";
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:gray;
+}
+
+a:hover{
+color:blue;
+}
+
+a:active{
+    color:yellow;
+}
